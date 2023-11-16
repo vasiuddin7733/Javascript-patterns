@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import clientPromise from '../lib/mongodb'
 import type { InferGetServerSidePropsType, GetServerSideProps } from 'next'
+import "../style/index.module.css"
 
 type ConnectionStatus = {
   isConnected: boolean
@@ -91,12 +92,12 @@ export default function Home({
           </a>
         </div>
         <a
-            href="/pres"
+            href="/container"
             target=""
             rel="noopener noreferrer"
             className="card"
           >
-            <h2>Pres Page</h2>
+            <h2>Container Page</h2>
           </a>
       </main>
 
