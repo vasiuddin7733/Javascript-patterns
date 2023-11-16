@@ -92,7 +92,7 @@ export default function Home({
           </a>
         </div>
         <a
-            href="/container"
+            href="/projects"
             target=""
             rel="noopener noreferrer"
             className="card"
