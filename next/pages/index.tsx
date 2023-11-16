@@ -90,7 +90,16 @@ export default function Home({
             </p>
           </a>
         </div>
+        <a
+            href="/pres"
+            target=""
+            rel="noopener noreferrer"
+            className="card"
+          >
+            <h2>Pres Page</h2>
+          </a>
       </main>
+
 
       <footer>
         <a
