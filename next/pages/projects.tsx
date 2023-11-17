@@ -2,6 +2,8 @@ import { Octokit } from 'octokit';
 import React, { useEffect, useState } from 'react';
 import ProjectCard from '../src/components/patterns/presentational/projectCard';
 import ProjectOverview from '../src/components/patterns/presentational/projectOverview';
+import '../style/index.module.css';
+
 
 function Projects() {
   const [projects, setProjects] = useState([]);
