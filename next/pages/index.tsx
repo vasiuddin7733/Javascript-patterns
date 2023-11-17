@@ -2,6 +2,7 @@ import Head from 'next/head'
 import clientPromise from '../lib/mongodb'
 import type { InferGetServerSidePropsType, GetServerSideProps } from 'next'
 import "../style/index.module.css"
+import React from 'react'
 
 type ConnectionStatus = {
   isConnected: boolean
