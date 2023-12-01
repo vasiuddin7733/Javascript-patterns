@@ -9,19 +9,11 @@ const Renderprops = () => {
       <div>
         <h1 className="text-red-400 text-center">Rendering Props</h1>
       </div>
-
-      <div>
-        <Renderingprops
-          rendering={(count, handleCount) => (
-            <Renderprop1 count={count} handleCount={handleCount} />
-          )}
-        />
-        <Renderingprops
-          rendering={(count, handleCount) => (
-            <Renderprop2 count={count} handleCount={handleCount} />
-          )}
-        />
+      <div className="py-10">
+        <Renderprop1 />
+        <Renderprop2 />
       </div>
+      <div></div>
     </div>
   );
 };
