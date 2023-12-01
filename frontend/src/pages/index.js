@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import '../../src/globals.css'
 
 export default function Home() {
   return (
