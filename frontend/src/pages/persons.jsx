@@ -2,7 +2,7 @@ import React from "react";
 import Person1 from "@/components/person1";
 import Person2 from "@/components/person2";
 
-const persons = () => {
+const Persons = () => {
   return (
     <div>
       <Person1 />
@@ -11,4 +11,4 @@ const persons = () => {
   );
 };
 
-export default persons;
+export default Persons;
