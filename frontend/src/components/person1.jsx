@@ -1,7 +1,7 @@
 import React from "react";
 import HOC from "./hoc";
 
-const person1 = ({ money, handleIncrease }) => {
+const Person1 = ({ money, handleIncrease }) => {
   return (
     <div>
       <h2> John is offering {money}</h2>
@@ -10,4 +10,4 @@ const person1 = ({ money, handleIncrease }) => {
   );
 };
 
-export default HOC(person1);
+export default HOC(Person1);
