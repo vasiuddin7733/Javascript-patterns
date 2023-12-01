@@ -1,7 +1,8 @@
-import Renderingprops from "@/components/renderingprops";
-import Renderprop1 from "@/components/renderprop1";
-import Renderprop2 from "@/components/renderprops2";
 import React from "react";
+import "../../src/globals.css";
+import Renderingprops from "@/components/renderprops/renderingprops";
+import Renderprop1 from "@/components/renderprops/renderprop1";
+import Renderprop2 from "@/components/renderprops/renderprops2";
 
 const Renderprops = () => {
   return (
