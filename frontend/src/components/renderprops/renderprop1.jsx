@@ -1,5 +1,4 @@
 import React from "react";
-import "../../src/globals.css";
 
 const Renderprop1 = (props) => {
   const { count, handleCount } = props;
