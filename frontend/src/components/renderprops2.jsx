@@ -1,11 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
-const Renderprop2 = () => {
-  const [count, setCount] = useState(0);
-
-  const handleCount = () => {
-    setCount(count + 1);
-  };
+const Renderprop2 = (props) => {
+  const { count, handleCount } = props;
   return (
     <div className="py-10">
       <p>Count: {count}</p>

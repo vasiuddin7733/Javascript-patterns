@@ -1,3 +1,4 @@
+import Renderingprops from "@/components/renderingprops";
 import Renderprop1 from "@/components/renderprop1";
 import Renderprop2 from "@/components/renderprops2";
 import React from "react";

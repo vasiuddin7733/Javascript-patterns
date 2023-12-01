@@ -1,12 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../src/globals.css";
 
-const Renderprop1 = () => {
-  const [count, setCount] = useState(0);
-
-  const handleCount = () => {
-    setCount(count + 1);
-  };
+const Renderprop1 = (props) => {
+  const { count, handleCount } = props;
   return (
     <div className="py-10">
       <p>Count: {count}</p>
