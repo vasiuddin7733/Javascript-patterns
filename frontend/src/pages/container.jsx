@@ -1,7 +1,7 @@
 import { Octokit } from "octokit";
 import React, { useEffect, useState } from "react";
-import ProjectCard from "../components/container-pres/project-cards";
-import ProjectOverview from "../components/container-pres/project-overview";
+import ProjectCard from "../components/container-pres/projectCards";
+import ProjectOverview from "../components/container-pres/projectOverview";
 import "../../src/globals.css";
 
 export default function Projects() {
