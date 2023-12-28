@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import ProjectCard from "../components/container-pres/projectCards";
 import ProjectOverview from "../components/container-pres/projectOverview";
 import "../../src/globals.css";
+import Filter from "@/components/arrays/filter";
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
@@ -41,6 +42,7 @@ export default function Projects() {
           />
         )}
       </div>
+      <Filter />
     </div>
   );
 }
